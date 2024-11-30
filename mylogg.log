@@ -1,0 +1,11 @@
+------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  D:\DEE\Dissertation\Quantitative approaches\DATA\mylogg.log
+  log type:  text
+ opened on:  14 Aug 2024, 11:57:53
+
+. log using mylogg.log,append
+log file already open
+r(604);
+
+. exit, clear

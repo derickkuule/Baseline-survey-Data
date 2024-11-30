@@ -1,0 +1,394 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}D:\DEE\Dissertation\Quantitative approaches\DATA\Untitled.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}11 Oct 2024, 01:30:28
+
+{com}. tab D_migr_liv Studysite
+
+           {txt}{c |}                  Studysite
+D_migr_liv {c |}        11         12         21         22 {c |}     Total
+{hline 11}{c +}{hline 44}{c +}{hline 10}
+         0 {c |}{res}       173         60         38         45 {txt}{c |}{res}       316 
+{txt}         1 {c |}{res}        43        138         94        114 {txt}{c |}{res}       389 
+{txt}       888 {c |}{res}         6          5         98        130 {txt}{c |}{res}       239 
+{txt}{hline 11}{c +}{hline 44}{c +}{hline 10}
+     Total {c |}{res}       222        203        230        289 {txt}{c |}{res}       944 
+
+
+{com}. GG_maleconflicts D_migr_liv
+{err}command {bf}GG_maleconflicts{sf} is unrecognized
+{txt}{search r(199), local:r(199);}
+
+{com}. tab GG_maleconflicts D_migr_liv
+
+{txt}GG_malecon {c |}            D_migr_liv
+    flicts {c |}         0          1        888 {c |}     Total
+{hline 11}{c +}{hline 33}{c +}{hline 10}
+         0 {c |}{res}       200        140         84 {txt}{c |}{res}       424 
+{txt}         1 {c |}{res}       116        249        155 {txt}{c |}{res}       520 
+{txt}{hline 11}{c +}{hline 33}{c +}{hline 10}
+     Total {c |}{res}       316        389        239 {txt}{c |}{res}       944 
+
+
+{com}. tab D_migr_liv Studysite
+
+           {txt}{c |}                  Studysite
+D_migr_liv {c |}        11         12         21         22 {c |}     Total
+{hline 11}{c +}{hline 44}{c +}{hline 10}
+         0 {c |}{res}       173         60         38         45 {txt}{c |}{res}       316 
+{txt}         1 {c |}{res}        43        138         94        114 {txt}{c |}{res}       389 
+{txt}       888 {c |}{res}         6          5         98        130 {txt}{c |}{res}       239 
+{txt}{hline 11}{c +}{hline 44}{c +}{hline 10}
+     Total {c |}{res}       222        203        230        289 {txt}{c |}{res}       944 
+
+
+{com}. tab D_Hmigr_HH GG_maleconflicts 
+
+           {txt}{c |}   GG_maleconflicts
+D_Hmigr_HH {c |}         0          1 {c |}     Total
+{hline 11}{c +}{hline 22}{c +}{hline 10}
+         0 {c |}{res}       353        319 {txt}{c |}{res}       672 
+{txt}         1 {c |}{res}        71        201 {txt}{c |}{res}       272 
+{txt}{hline 11}{c +}{hline 22}{c +}{hline 10}
+     Total {c |}{res}       424        520 {txt}{c |}{res}       944 
+
+
+{com}. tab B_m2_school_years
+
+{txt}B_m2_school {c |}
+     _years {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}        618       65.47       65.47
+{txt}          1 {c |}{res}         16        1.69       67.16
+{txt}          2 {c |}{res}         17        1.80       68.96
+{txt}          3 {c |}{res}         18        1.91       70.87
+{txt}          4 {c |}{res}         25        2.65       73.52
+{txt}          5 {c |}{res}         18        1.91       75.42
+{txt}          6 {c |}{res}         22        2.33       77.75
+{txt}          7 {c |}{res}         40        4.24       81.99
+{txt}          8 {c |}{res}         34        3.60       85.59
+{txt}          9 {c |}{res}          6        0.64       86.23
+{txt}         10 {c |}{res}         11        1.17       87.39
+{txt}         11 {c |}{res}          9        0.95       88.35
+{txt}         12 {c |}{res}         12        1.27       89.62
+{txt}         13 {c |}{res}         14        1.48       91.10
+{txt}         14 {c |}{res}          7        0.74       91.84
+{txt}         15 {c |}{res}          1        0.11       91.95
+{txt}         16 {c |}{res}          3        0.32       92.27
+{txt}         17 {c |}{res}          2        0.21       92.48
+{txt}         20 {c |}{res}          1        0.11       92.58
+{txt}        888 {c |}{res}         65        6.89       99.47
+{txt}       2013 {c |}{res}          1        0.11       99.58
+{txt}       2016 {c |}{res}          1        0.11       99.68
+{txt}       2017 {c |}{res}          1        0.11       99.79
+{txt}       2018 {c |}{res}          2        0.21      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        944      100.00
+
+{com}. tab F_expenditure_may
+
+{txt}F_expenditu {c |}
+     re_may {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          1 {c |}{res}        148       15.68       15.68
+{txt}          2 {c |}{res}        543       57.52       73.20
+{txt}          3 {c |}{res}        253       26.80      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        944      100.00
+
+{com}. tab F_expenditure_apr
+
+{txt}F_expenditu {c |}
+     re_apr {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          1 {c |}{res}        157       16.63       16.63
+{txt}          2 {c |}{res}        564       59.75       76.38
+{txt}          3 {c |}{res}        223       23.62      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        944      100.00
+
+{com}. sum F_HH_tot_expenditure
+
+{txt}    Variable {c |}        Obs        Mean    Std. Dev.       Min        Max
+{hline 13}{c +}{hline 57}
+F_HH_tot_e~e {c |}{res}        944    673895.2    959754.9         43    9000000
+
+{com}. sum Studysite F_HH_tot_expenditure
+
+{txt}    Variable {c |}        Obs        Mean    Std. Dev.       Min        Max
+{hline 13}{c +}{hline 57}
+{space 3}Studysite {c |}{res}        944    17.01907    5.041888         11         22
+{txt}F_HH_tot_e~e {c |}{res}        944    673895.2    959754.9         43    9000000
+
+{com}. tab Studysite F_HH_tot_expenditure
+{err}too many values
+{txt}{search r(134), local:r(134);}
+
+{com}. tab F_HH_tot_expenditure Studysite
+
+{txt}F_HH_tot_e {c |}                  Studysite
+xpenditure {c |}        11         12         21         22 {c |}     Total
+{hline 11}{c +}{hline 44}{c +}{hline 10}
+        43 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}       100 {c |}{res}         0          0          1          0 {txt}{c |}{res}         1 
+{txt}     15000 {c |}{res}         1          0          0          0 {txt}{c |}{res}         1 
+{txt}     20000 {c |}{res}         3          7          0          0 {txt}{c |}{res}        10 
+{txt}     21000 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     25000 {c |}{res}         4          7          0          0 {txt}{c |}{res}        11 
+{txt}     28000 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     30000 {c |}{res}         8          9          1          1 {txt}{c |}{res}        19 
+{txt}     32000 {c |}{res}         0          2          0          0 {txt}{c |}{res}         2 
+{txt}     35000 {c |}{res}         2          7          0          1 {txt}{c |}{res}        10 
+{txt}     36000 {c |}{res}         0         18          0          0 {txt}{c |}{res}        18 
+{txt}     40000 {c |}{res}         2         10          0          0 {txt}{c |}{res}        12 
+{txt}     42000 {c |}{res}         0          3          0          0 {txt}{c |}{res}         3 
+{txt}     45000 {c |}{res}         0         17          0          0 {txt}{c |}{res}        17 
+{txt}     46000 {c |}{res}         0          2          0          0 {txt}{c |}{res}         2 
+{txt}     48000 {c |}{res}         1          1          0          0 {txt}{c |}{res}         2 
+{txt}     50000 {c |}{res}        15         14          0          0 {txt}{c |}{res}        29 
+{txt}     52000 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     54000 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     55000 {c |}{res}         0          5          0          0 {txt}{c |}{res}         5 
+{txt}     56000 {c |}{res}         0          2          0          0 {txt}{c |}{res}         2 
+{txt}     56300 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     60000 {c |}{res}         8         15          1          0 {txt}{c |}{res}        24 
+{txt}     63000 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     65000 {c |}{res}         0          3          0          1 {txt}{c |}{res}         4 
+{txt}     65600 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     69700 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     70000 {c |}{res}         8          3          0          0 {txt}{c |}{res}        11 
+{txt}     72000 {c |}{res}         0          4          0          0 {txt}{c |}{res}         4 
+{txt}     75000 {c |}{res}         1          1          0          0 {txt}{c |}{res}         2 
+{txt}     75300 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     76000 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     76800 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     77600 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     80000 {c |}{res}         5          5          0          0 {txt}{c |}{res}        10 
+{txt}     80400 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     81600 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     82000 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     84000 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     85600 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     86000 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     86500 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     87000 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     89000 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     90000 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     92000 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     94000 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     94600 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     94800 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     95000 {c |}{res}         0          2          0          0 {txt}{c |}{res}         2 
+{txt}     96000 {c |}{res}         0          2          0          0 {txt}{c |}{res}         2 
+{txt}     96700 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     97000 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     97200 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}     97800 {c |}{res}         0          2          0          0 {txt}{c |}{res}         2 
+{txt}     98000 {c |}{res}         0          2          0          0 {txt}{c |}{res}         2 
+{txt}     98800 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}    100000 {c |}{res}        14          8          1          2 {txt}{c |}{res}        25 
+{txt}    102000 {c |}{res}         1          3          0          0 {txt}{c |}{res}         4 
+{txt}    103000 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}    105000 {c |}{res}         0          2          0          1 {txt}{c |}{res}         3 
+{txt}    106000 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}    108000 {c |}{res}         0          2          0          0 {txt}{c |}{res}         2 
+{txt}    109000 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}    110000 {c |}{res}         3          0          0          0 {txt}{c |}{res}         3 
+{txt}    112000 {c |}{res}         0          2          0          0 {txt}{c |}{res}         2 
+{txt}    113000 {c |}{res}         1          0          0          0 {txt}{c |}{res}         1 
+{txt}    118000 {c |}{res}         1          0          0          0 {txt}{c |}{res}         1 
+{txt}    120000 {c |}{res}         5          1          1          0 {txt}{c |}{res}         7 
+{txt}    123600 {c |}{res}         0          1          0          0 {txt}{c |}{res}         1 
+{txt}    125000 {c |}{res}         1          0          0          0 {txt}{c |}{res}         1 
+{txt}    130000 {c |}{res}         3          0          0          0 {txt}{c |}{res}         3 
+{txt}    134000 {c |}{res}         1          1          0          0 {txt}{c |}{res}         2 
+{txt}    140000 {c |}{res}         1          0          0          0 {txt}{c |}{res}         1 
+{txt}    144000 {c |}{res}         1          0          0          0 {txt}{c |}{res}         1 
+{txt}    144500 {c |}{res}         0          2          0          0 {txt}{c |}{res}         2 
+{txt}    145000 {c |}{res}         1          0          0          0 {txt}{c |}{res}         1 
+{txt}    150000 {c |}{res}        31          2          1          2 {txt}{c |}{res}        36 
+{txt}    160000 {c |}{res}         1          0          0          0 {txt}{c |}{res}         1 
+{txt}    170000 {c |}{res}         5          0          0          0 {txt}{c |}{res}         5 
+{txt}    180000 {c |}{res}         3          1          0          0 {txt}{c |}{res}         4 
+{txt}    200000 {c |}{res}        15          1         15          1 {txt}{c |}{res}        32 
+{txt}    210000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    220000 {c |}{res}         1          0          0          0 {txt}{c |}{res}         1 
+{txt}    230000 {c |}{res}         1          0          0          0 {txt}{c |}{res}         1 
+{txt}    240000 {c |}{res}         0          0          0          5 {txt}{c |}{res}         5 
+{txt}    245000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    245600 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    250000 {c |}{res}        19          0          9          3 {txt}{c |}{res}        31 
+{txt}    256000 {c |}{res}         0          0          0          2 {txt}{c |}{res}         2 
+{txt}    260000 {c |}{res}         1          0          0          0 {txt}{c |}{res}         1 
+{txt}    270000 {c |}{res}         1          0          0          0 {txt}{c |}{res}         1 
+{txt}    280000 {c |}{res}         0          0          1          0 {txt}{c |}{res}         1 
+{txt}    300000 {c |}{res}        15          0         10          5 {txt}{c |}{res}        30 
+{txt}    305000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    309000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    314000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    315000 {c |}{res}         0          0          0          2 {txt}{c |}{res}         2 
+{txt}    320000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    325000 {c |}{res}         0          0          0          3 {txt}{c |}{res}         3 
+{txt}    330000 {c |}{res}         0          0          0          2 {txt}{c |}{res}         2 
+{txt}    350000 {c |}{res}         4          0          6          3 {txt}{c |}{res}        13 
+{txt}    357800 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    358600 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    360000 {c |}{res}         1          0          1          0 {txt}{c |}{res}         2 
+{txt}    370000 {c |}{res}         0          0          1          0 {txt}{c |}{res}         1 
+{txt}    374000 {c |}{res}         0          0          1          0 {txt}{c |}{res}         1 
+{txt}    385000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    386000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    391500 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    400000 {c |}{res}         7          0         10          2 {txt}{c |}{res}        19 
+{txt}    405000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    405200 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    406000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    410000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    412000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    420000 {c |}{res}         0          0          0          3 {txt}{c |}{res}         3 
+{txt}    425000 {c |}{res}         1          0          0          0 {txt}{c |}{res}         1 
+{txt}    428000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    430000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    432000 {c |}{res}         0          0          0          2 {txt}{c |}{res}         2 
+{txt}    450000 {c |}{res}         1          0          0          3 {txt}{c |}{res}         4 
+{txt}    458500 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    462500 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    470000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    480000 {c |}{res}         0          0          0          4 {txt}{c |}{res}         4 
+{txt}    490000 {c |}{res}         0          0          1          0 {txt}{c |}{res}         1 
+{txt}    498700 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    500000 {c |}{res}        11          0         26         10 {txt}{c |}{res}        47 
+{txt}    504000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    510000 {c |}{res}         1          0          0          2 {txt}{c |}{res}         3 
+{txt}    526000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    535000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    540000 {c |}{res}         0          0          0          2 {txt}{c |}{res}         2 
+{txt}    547000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    550000 {c |}{res}         1          0          2          2 {txt}{c |}{res}         5 
+{txt}    560000 {c |}{res}         0          0          1          0 {txt}{c |}{res}         1 
+{txt}    562000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    565000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    570000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    580000 {c |}{res}         0          0          1          0 {txt}{c |}{res}         1 
+{txt}    600000 {c |}{res}         1          0         22         12 {txt}{c |}{res}        35 
+{txt}    602000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    608250 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    617500 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    620000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    628000 {c |}{res}         0          0          1          0 {txt}{c |}{res}         1 
+{txt}    645000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    650000 {c |}{res}         1          0          4          5 {txt}{c |}{res}        10 
+{txt}    660000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    672000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    675000 {c |}{res}         0          0          0          2 {txt}{c |}{res}         2 
+{txt}    680000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    695000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    700000 {c |}{res}         2          0         15          5 {txt}{c |}{res}        22 
+{txt}    702000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    705000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    709100 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    720000 {c |}{res}         0          0          1          2 {txt}{c |}{res}         3 
+{txt}    730000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    740000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    750000 {c |}{res}         1          0          1          2 {txt}{c |}{res}         4 
+{txt}    756000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    760000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    780000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    800000 {c |}{res}         1          0         14          7 {txt}{c |}{res}        22 
+{txt}    812000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    820000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    840000 {c |}{res}         0          0          0          3 {txt}{c |}{res}         3 
+{txt}    850000 {c |}{res}         0          0          0          2 {txt}{c |}{res}         2 
+{txt}    864000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    900000 {c |}{res}         0          0          3          8 {txt}{c |}{res}        11 
+{txt}    912000 {c |}{res}         0          0          1          0 {txt}{c |}{res}         1 
+{txt}    950000 {c |}{res}         0          0          0          6 {txt}{c |}{res}         6 
+{txt}    960000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}    980000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}   1000000 {c |}{res}         1          0         23         10 {txt}{c |}{res}        34 
+{txt}   1008000 {c |}{res}         0          0          1          0 {txt}{c |}{res}         1 
+{txt}   1100000 {c |}{res}         0          0          1          1 {txt}{c |}{res}         2 
+{txt}   1140000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}   1150000 {c |}{res}         0          0          1          0 {txt}{c |}{res}         1 
+{txt}   1200000 {c |}{res}         1          0          8         11 {txt}{c |}{res}        20 
+{txt}   1250000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}   1300000 {c |}{res}         0          0          2          5 {txt}{c |}{res}         7 
+{txt}   1350000 {c |}{res}         0          0          0          2 {txt}{c |}{res}         2 
+{txt}   1360000 {c |}{res}         0          0          1          0 {txt}{c |}{res}         1 
+{txt}   1400000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}   1440000 {c |}{res}         0          0          3          4 {txt}{c |}{res}         7 
+{txt}   1500000 {c |}{res}         2          0          5         11 {txt}{c |}{res}        18 
+{txt}   1560000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}   1600000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}   1650000 {c |}{res}         0          0          0          2 {txt}{c |}{res}         2 
+{txt}   1680000 {c |}{res}         0          0          0          6 {txt}{c |}{res}         6 
+{txt}   1700000 {c |}{res}         0          0          2          0 {txt}{c |}{res}         2 
+{txt}   1800000 {c |}{res}         0          0          1          7 {txt}{c |}{res}         8 
+{txt}   1900000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}   1920000 {c |}{res}         0          0          0          2 {txt}{c |}{res}         2 
+{txt}   2000000 {c |}{res}         0          0         12         11 {txt}{c |}{res}        23 
+{txt}   2030000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}   2100000 {c |}{res}         0          0          0          3 {txt}{c |}{res}         3 
+{txt}   2160000 {c |}{res}         0          0          1          0 {txt}{c |}{res}         1 
+{txt}   2400000 {c |}{res}         0          0          2          9 {txt}{c |}{res}        11 
+{txt}   2500000 {c |}{res}         0          0          1          2 {txt}{c |}{res}         3 
+{txt}   2520000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}   2600000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}   2800000 {c |}{res}         0          0          1          0 {txt}{c |}{res}         1 
+{txt}   2860000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}   2880000 {c |}{res}         0          0          1          0 {txt}{c |}{res}         1 
+{txt}   3000000 {c |}{res}         0          0          2          4 {txt}{c |}{res}         6 
+{txt}   3200000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}   3360000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}   3500000 {c |}{res}         0          0          3          1 {txt}{c |}{res}         4 
+{txt}   3600000 {c |}{res}         0          0          1          4 {txt}{c |}{res}         5 
+{txt}   4500000 {c |}{res}         0          0          0          2 {txt}{c |}{res}         2 
+{txt}   4800000 {c |}{res}         0          0          0          4 {txt}{c |}{res}         4 
+{txt}   5000000 {c |}{res}         0          0          5          1 {txt}{c |}{res}         6 
+{txt}   5040000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}   5500000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}   6000000 {c |}{res}         1          0          0          1 {txt}{c |}{res}         2 
+{txt}   7200000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}   9000000 {c |}{res}         0          0          0          1 {txt}{c |}{res}         1 
+{txt}{hline 11}{c +}{hline 44}{c +}{hline 10}
+     Total {c |}{res}       222        203        230        289 {txt}{c |}{res}       944 
+
+
+{com}. tab F_income_head_control
+
+{txt}F_income_he {c |}
+ ad_control {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          1 {c |}{res}        380       40.25       40.25
+{txt}          2 {c |}{res}        101       10.70       50.95
+{txt}          3 {c |}{res}        449       47.56       98.52
+{txt}         66 {c |}{res}         14        1.48      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        944      100.00
+
+{com}. tab H_income_work
+
+{txt}H_income_wo {c |}
+         rk {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}        335       35.49       35.49
+{txt}          1 {c |}{res}        609       64.51      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        944      100.00
+
+{com}. tab C_HH_dep_full_agri Studysite
+
+{txt}C_HH_dep_f {c |}                  Studysite
+  ull_agri {c |}        11         12         21         22 {c |}     Total
+{hline 11}{c +}{hline 44}{c +}{hline 10}
+         1 {c |}{res}        10        143          3         12 {txt}{c |}{res}       168 
+{txt}         2 {c |}{res}         6          2        112         38 {txt}{c |}{res}       158 
+{txt}         3 {c |}{res}       199         38        101         88 {txt}{c |}{res}       426 
+{txt}         4 {c |}{res}         7         20         14        151 {txt}{c |}{res}       192 
+{txt}{hline 11}{c +}{hline 44}{c +}{hline 10}
+     Total {c |}{res}       222        203        230        289 {txt}{c |}{res}       944 
+
+
+{com}. exit, clear
