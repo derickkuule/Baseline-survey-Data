@@ -18294,4 +18294,585 @@ F_income_head_control {c |}
  {txt}closed on:  {res} 4 Nov 2024, 17:14:20
 {txt}{.-}
 {smcl}
-{txt}{sf}{ul off}
+{txt}{sf}{ul off}{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}D:\DEE\Dissertation\Quantitative approaches\DATA\DAKuule_logfile_2024_August_2024.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}20 Dec 2024, 19:21:28
+
+{com}. tab E_liv_water_piped_min
+
+{txt}E_liv_water {c |}
+ _piped_min {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}          3        0.32        0.32
+{txt}          1 {c |}{res}          1        0.11        0.42
+{txt}          2 {c |}{res}          1        0.11        0.53
+{txt}          3 {c |}{res}          2        0.21        0.74
+{txt}          5 {c |}{res}          1        0.11        0.85
+{txt}         12 {c |}{res}          1        0.11        0.95
+{txt}         20 {c |}{res}          1        0.11        1.06
+{txt}         60 {c |}{res}          9        0.95        2.01
+{txt}         70 {c |}{res}          1        0.11        2.12
+{txt}         80 {c |}{res}          1        0.11        2.22
+{txt}         90 {c |}{res}          1        0.11        2.33
+{txt}        120 {c |}{res}          2        0.21        2.54
+{txt}        180 {c |}{res}          1        0.11        2.65
+{txt}        888 {c |}{res}        919       97.35      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        944      100.00
+
+{com}. gen a E_liv_water_piped_min = E_liv_water_piped_min if E_liv_water_piped_min <180
+{err}variable {bf}E_liv_water_piped_min{sf} already defined
+{txt}{search r(110), local:r(110);}
+
+{com}. gen aE_liv_water_piped_min = E_liv_water_piped_min if E_liv_water_piped_min <180
+{txt}(920 missing values generated)
+
+{com}. tab E_liv_water_piped_km
+
+{txt}E_liv_water {c |}
+  _piped_km {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}          3        0.32        0.32
+{txt}        .01 {c |}{res}          1        0.11        0.42
+{txt}        .15 {c |}{res}          1        0.11        0.53
+{txt}        .25 {c |}{res}          4        0.42        0.95
+{txt}          1 {c |}{res}          1        0.11        1.06
+{txt}          2 {c |}{res}          3        0.32        1.38
+{txt}          3 {c |}{res}          4        0.42        1.80
+{txt}        3.5 {c |}{res}          1        0.11        1.91
+{txt}          4 {c |}{res}          3        0.32        2.22
+{txt}          5 {c |}{res}          2        0.21        2.44
+{txt}          7 {c |}{res}          1        0.11        2.54
+{txt}        120 {c |}{res}          1        0.11        2.65
+{txt}        888 {c |}{res}        919       97.35      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        944      100.00
+
+{com}. gen aE_liv_water_piped_km = E_liv_water_piped_km if E_liv_water_piped_km <120
+{txt}(920 missing values generated)
+
+{com}. tab E_liv_water_borehole_min
+
+{txt}E_liv_water {c |}
+_borehole_m {c |}
+         in {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}          3        0.32        0.32
+{txt}          1 {c |}{res}          1        0.11        0.42
+{txt}          2 {c |}{res}          3        0.32        0.74
+{txt}          3 {c |}{res}          3        0.32        1.06
+{txt}          4 {c |}{res}          2        0.21        1.27
+{txt}          5 {c |}{res}         12        1.27        2.54
+{txt}          6 {c |}{res}          3        0.32        2.86
+{txt}          7 {c |}{res}          2        0.21        3.07
+{txt}          8 {c |}{res}          4        0.42        3.50
+{txt}          9 {c |}{res}          1        0.11        3.60
+{txt}         10 {c |}{res}         27        2.86        6.46
+{txt}         12 {c |}{res}          1        0.11        6.57
+{txt}         15 {c |}{res}         26        2.75        9.32
+{txt}         20 {c |}{res}         14        1.48       10.81
+{txt}         25 {c |}{res}          4        0.42       11.23
+{txt}         30 {c |}{res}         19        2.01       13.24
+{txt}         40 {c |}{res}          4        0.42       13.67
+{txt}         45 {c |}{res}          4        0.42       14.09
+{txt}         50 {c |}{res}          6        0.64       14.72
+{txt}         58 {c |}{res}          1        0.11       14.83
+{txt}         60 {c |}{res}         18        1.91       16.74
+{txt}         65 {c |}{res}          4        0.42       17.16
+{txt}         68 {c |}{res}          1        0.11       17.27
+{txt}         70 {c |}{res}          5        0.53       17.80
+{txt}         75 {c |}{res}          9        0.95       18.75
+{txt}         80 {c |}{res}          4        0.42       19.17
+{txt}         85 {c |}{res}          1        0.11       19.28
+{txt}         90 {c |}{res}          2        0.21       19.49
+{txt}        100 {c |}{res}          7        0.74       20.23
+{txt}        120 {c |}{res}         10        1.06       21.29
+{txt}        130 {c |}{res}          1        0.11       21.40
+{txt}        180 {c |}{res}          3        0.32       21.72
+{txt}        200 {c |}{res}          2        0.21       21.93
+{txt}        240 {c |}{res}          1        0.11       22.03
+{txt}        300 {c |}{res}          2        0.21       22.25
+{txt}        360 {c |}{res}          1        0.11       22.35
+{txt}        888 {c |}{res}        733       77.65      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        944      100.00
+
+{com}. gen aE_liv_water_borehole_min = E_liv_water_borehole_min if E_liv_water_borehole_min !=888
+{txt}(733 missing values generated)
+
+{com}. tab E_liv_water_borehole_km
+
+{txt}E_liv_water {c |}
+_borehole_k {c |}
+          m {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}          3        0.32        0.32
+{txt}        .01 {c |}{res}          1        0.11        0.42
+{txt}       .025 {c |}{res}          1        0.11        0.53
+{txt}        .05 {c |}{res}          1        0.11        0.64
+{txt}         .1 {c |}{res}          3        0.32        0.95
+{txt}        .15 {c |}{res}          3        0.32        1.27
+{txt}         .2 {c |}{res}          4        0.42        1.69
+{txt}        .25 {c |}{res}         41        4.34        6.04
+{txt}        .28 {c |}{res}          1        0.11        6.14
+{txt}         .3 {c |}{res}          3        0.32        6.46
+{txt}        .35 {c |}{res}          1        0.11        6.57
+{txt}         .4 {c |}{res}          2        0.21        6.78
+{txt}        .45 {c |}{res}          6        0.64        7.42
+{txt}         .5 {c |}{res}         25        2.65       10.06
+{txt}         .6 {c |}{res}          5        0.53       10.59
+{txt}         .7 {c |}{res}          1        0.11       10.70
+{txt}        .75 {c |}{res}          2        0.21       10.91
+{txt}         .8 {c |}{res}          6        0.64       11.55
+{txt}          1 {c |}{res}         20        2.12       13.67
+{txt}        1.2 {c |}{res}          2        0.21       13.88
+{txt}        1.3 {c |}{res}          1        0.11       13.98
+{txt}        1.5 {c |}{res}          8        0.85       14.83
+{txt}          2 {c |}{res}          6        0.64       15.47
+{txt}       2.01 {c |}{res}          1        0.11       15.57
+{txt}        2.5 {c |}{res}          6        0.64       16.21
+{txt}          3 {c |}{res}         10        1.06       17.27
+{txt}        3.4 {c |}{res}          1        0.11       17.37
+{txt}        3.5 {c |}{res}          8        0.85       18.22
+{txt}          4 {c |}{res}          4        0.42       18.64
+{txt}        4.5 {c |}{res}          5        0.53       19.17
+{txt}          5 {c |}{res}         15        1.59       20.76
+{txt}          6 {c |}{res}          4        0.42       21.19
+{txt}          7 {c |}{res}          3        0.32       21.50
+{txt}        7.5 {c |}{res}          1        0.11       21.61
+{txt}          9 {c |}{res}          2        0.21       21.82
+{txt}         10 {c |}{res}          3        0.32       22.14
+{txt}         15 {c |}{res}          1        0.11       22.25
+{txt}         40 {c |}{res}          1        0.11       22.35
+{txt}        888 {c |}{res}        733       77.65      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        944      100.00
+
+{com}. gen E_liv_water_borehole_km = E_liv_water_borehole_km if E_liv_water_borehole_km <40
+{err}variable {bf}E_liv_water_borehole_km{sf} already defined
+{txt}{search r(110), local:r(110);}
+
+{com}. gen aE_liv_water_borehole_km = E_liv_water_borehole_km if E_liv_water_borehole_km <40
+{txt}(734 missing values generated)
+
+{com}. tab E_liv_water_well_min
+
+{txt}E_liv_water {c |}
+  _well_min {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}          3        0.32        0.32
+{txt}          3 {c |}{res}          1        0.11        0.42
+{txt}          5 {c |}{res}          5        0.53        0.95
+{txt}         10 {c |}{res}         15        1.59        2.54
+{txt}         15 {c |}{res}          9        0.95        3.50
+{txt}         20 {c |}{res}         28        2.97        6.46
+{txt}         25 {c |}{res}          1        0.11        6.57
+{txt}         30 {c |}{res}         39        4.13       10.70
+{txt}         35 {c |}{res}          1        0.11       10.81
+{txt}         40 {c |}{res}         11        1.17       11.97
+{txt}         45 {c |}{res}          6        0.64       12.61
+{txt}         50 {c |}{res}          6        0.64       13.24
+{txt}         60 {c |}{res}         32        3.39       16.63
+{txt}         65 {c |}{res}          1        0.11       16.74
+{txt}         70 {c |}{res}          2        0.21       16.95
+{txt}         80 {c |}{res}         12        1.27       18.22
+{txt}         90 {c |}{res}          2        0.21       18.43
+{txt}        100 {c |}{res}          2        0.21       18.64
+{txt}        120 {c |}{res}         17        1.80       20.44
+{txt}        130 {c |}{res}          1        0.11       20.55
+{txt}        140 {c |}{res}          2        0.21       20.76
+{txt}        160 {c |}{res}          3        0.32       21.08
+{txt}        180 {c |}{res}          2        0.21       21.29
+{txt}        200 {c |}{res}          1        0.11       21.40
+{txt}        240 {c |}{res}          1        0.11       21.50
+{txt}        360 {c |}{res}          3        0.32       21.82
+{txt}        420 {c |}{res}          2        0.21       22.03
+{txt}        600 {c |}{res}          1        0.11       22.14
+{txt}        888 {c |}{res}        735       77.86      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        944      100.00
+
+{com}. gen aE_liv_water_well_min = E_liv_water_well_min if E_liv_water_well_min <500
+{txt}(736 missing values generated)
+
+{com}. tab E_liv_water_well_km
+
+{txt}E_liv_water {c |}
+   _well_km {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}          3        0.32        0.32
+{txt}       .001 {c |}{res}          1        0.11        0.42
+{txt}         .1 {c |}{res}          1        0.11        0.53
+{txt}        .15 {c |}{res}          1        0.11        0.64
+{txt}         .2 {c |}{res}          4        0.42        1.06
+{txt}        .25 {c |}{res}          1        0.11        1.17
+{txt}         .3 {c |}{res}          6        0.64        1.80
+{txt}         .4 {c |}{res}          5        0.53        2.33
+{txt}         .5 {c |}{res}         26        2.75        5.08
+{txt}         .6 {c |}{res}          5        0.53        5.61
+{txt}         .7 {c |}{res}          3        0.32        5.93
+{txt}        .75 {c |}{res}          2        0.21        6.14
+{txt}         .8 {c |}{res}          4        0.42        6.57
+{txt}         .9 {c |}{res}          1        0.11        6.67
+{txt}          1 {c |}{res}         45        4.77       11.44
+{txt}        1.2 {c |}{res}          1        0.11       11.55
+{txt}       1.25 {c |}{res}          1        0.11       11.65
+{txt}        1.3 {c |}{res}          2        0.21       11.86
+{txt}        1.5 {c |}{res}         23        2.44       14.30
+{txt}          2 {c |}{res}         22        2.33       16.63
+{txt}        2.5 {c |}{res}          2        0.21       16.84
+{txt}          3 {c |}{res}         12        1.27       18.11
+{txt}          4 {c |}{res}         15        1.59       19.70
+{txt}          5 {c |}{res}         11        1.17       20.87
+{txt}          6 {c |}{res}          4        0.42       21.29
+{txt}          8 {c |}{res}          2        0.21       21.50
+{txt}          9 {c |}{res}          1        0.11       21.61
+{txt}         10 {c |}{res}          1        0.11       21.72
+{txt}         15 {c |}{res}          1        0.11       21.82
+{txt}         18 {c |}{res}          1        0.11       21.93
+{txt}         21 {c |}{res}          1        0.11       22.03
+{txt}         40 {c |}{res}          1        0.11       22.14
+{txt}        888 {c |}{res}        735       77.86      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        944      100.00
+
+{com}. gen aE_liv_water_well_km = E_liv_water_well_km if E_liv_water_well_km <40
+{txt}(736 missing values generated)
+
+{com}. tab E_liv_water_springs_min
+
+{txt}E_liv_water {c |}
+_springs_mi {c |}
+          n {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+        180 {c |}{res}          1        0.11        0.11
+{txt}        888 {c |}{res}        943       99.89      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        944      100.00
+
+{com}. tab E_liv_water_springs_km
+
+{txt}E_liv_water {c |}
+_springs_km {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          4 {c |}{res}          1        0.11        0.11
+{txt}        888 {c |}{res}        943       99.89      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        944      100.00
+
+{com}. gen E_liv_water_springs_min = E_liv_water_springs_min if E_liv_water_springs_min !=888
+{err}variable {bf}E_liv_water_springs_min{sf} already defined
+{txt}{search r(110), local:r(110);}
+
+{com}. gen aE_liv_water_springs_min = E_liv_water_springs_min if E_liv_water_springs_min !=888
+{txt}(943 missing values generated)
+
+{com}. gen aE_liv_water_springs_km = E_liv_water_springs_km if E_liv_water_springs_km !=888
+{txt}(943 missing values generated)
+
+{com}. tab E_liv_water_stream_min
+
+{txt}E_liv_water {c |}
+_stream_min {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          3 {c |}{res}          3        0.32        0.32
+{txt}          4 {c |}{res}          1        0.11        0.42
+{txt}          5 {c |}{res}          8        0.85        1.27
+{txt}          6 {c |}{res}          6        0.64        1.91
+{txt}          7 {c |}{res}          1        0.11        2.01
+{txt}          8 {c |}{res}          3        0.32        2.33
+{txt}         10 {c |}{res}         13        1.38        3.71
+{txt}         12 {c |}{res}          3        0.32        4.03
+{txt}         15 {c |}{res}         17        1.80        5.83
+{txt}         16 {c |}{res}          1        0.11        5.93
+{txt}         20 {c |}{res}         20        2.12        8.05
+{txt}         25 {c |}{res}          1        0.11        8.16
+{txt}         30 {c |}{res}         36        3.81       11.97
+{txt}         38 {c |}{res}          1        0.11       12.08
+{txt}         40 {c |}{res}         15        1.59       13.67
+{txt}         45 {c |}{res}          8        0.85       14.51
+{txt}         50 {c |}{res}         11        1.17       15.68
+{txt}         55 {c |}{res}          1        0.11       15.78
+{txt}         60 {c |}{res}         38        4.03       19.81
+{txt}         65 {c |}{res}          1        0.11       19.92
+{txt}         70 {c |}{res}          3        0.32       20.23
+{txt}         75 {c |}{res}          8        0.85       21.08
+{txt}         80 {c |}{res}         21        2.22       23.31
+{txt}         85 {c |}{res}          6        0.64       23.94
+{txt}         90 {c |}{res}          8        0.85       24.79
+{txt}         95 {c |}{res}          1        0.11       24.89
+{txt}         98 {c |}{res}          1        0.11       25.00
+{txt}        100 {c |}{res}          8        0.85       25.85
+{txt}        120 {c |}{res}         10        1.06       26.91
+{txt}        180 {c |}{res}          6        0.64       27.54
+{txt}        200 {c |}{res}          1        0.11       27.65
+{txt}        240 {c |}{res}          2        0.21       27.86
+{txt}        360 {c |}{res}          1        0.11       27.97
+{txt}        420 {c |}{res}          1        0.11       28.07
+{txt}        888 {c |}{res}        679       71.93      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        944      100.00
+
+{com}. tab E_liv_water_stream_km
+
+{txt}E_liv_water {c |}
+ _stream_km {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+        .01 {c |}{res}          1        0.11        0.11
+{txt}         .2 {c |}{res}          3        0.32        0.42
+{txt}        .25 {c |}{res}         20        2.12        2.54
+{txt}         .3 {c |}{res}          5        0.53        3.07
+{txt}         .4 {c |}{res}          4        0.42        3.50
+{txt}        .45 {c |}{res}          3        0.32        3.81
+{txt}         .5 {c |}{res}         20        2.12        5.93
+{txt}         .7 {c |}{res}          2        0.21        6.14
+{txt}        .75 {c |}{res}          4        0.42        6.57
+{txt}         .8 {c |}{res}          3        0.32        6.89
+{txt}          1 {c |}{res}         41        4.34       11.23
+{txt}       1.25 {c |}{res}          4        0.42       11.65
+{txt}        1.5 {c |}{res}         24        2.54       14.19
+{txt}       1.75 {c |}{res}          2        0.21       14.41
+{txt}          2 {c |}{res}         18        1.91       16.31
+{txt}        2.5 {c |}{res}          4        0.42       16.74
+{txt}          3 {c |}{res}         14        1.48       18.22
+{txt}        3.5 {c |}{res}          5        0.53       18.75
+{txt}          4 {c |}{res}         20        2.12       20.87
+{txt}          5 {c |}{res}         25        2.65       23.52
+{txt}        5.5 {c |}{res}          1        0.11       23.62
+{txt}          6 {c |}{res}         18        1.91       25.53
+{txt}        6.5 {c |}{res}          3        0.32       25.85
+{txt}          7 {c |}{res}          7        0.74       26.59
+{txt}        7.5 {c |}{res}          1        0.11       26.69
+{txt}          8 {c |}{res}          1        0.11       26.80
+{txt}          9 {c |}{res}          3        0.32       27.12
+{txt}         10 {c |}{res}          2        0.21       27.33
+{txt}         11 {c |}{res}          2        0.21       27.54
+{txt}         12 {c |}{res}          1        0.11       27.65
+{txt}         18 {c |}{res}          1        0.11       27.75
+{txt}         21 {c |}{res}          1        0.11       27.86
+{txt}         45 {c |}{res}          1        0.11       27.97
+{txt}        120 {c |}{res}          1        0.11       28.07
+{txt}        888 {c |}{res}        679       71.93      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        944      100.00
+
+{com}. gen aE_liv_water_stream_min = E_liv_water_stream_min if E_liv_water_stream_min <300
+{txt}(681 missing values generated)
+
+{com}. gen aE_liv_water_stream_km = E_liv_water_stream_km if E_liv_water_stream_km <45
+{txt}(681 missing values generated)
+
+{com}. tab E_liv_water_lake
+
+{txt}E_liv_water {c |}
+      _lake {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}        705       74.68       74.68
+{txt}        888 {c |}{res}        239       25.32      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        944      100.00
+
+{com}. tab E_liv_water_pond_min
+
+{txt}E_liv_water {c |}
+  _pond_min {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          1 {c |}{res}          2        0.21        0.21
+{txt}          5 {c |}{res}          4        0.42        0.64
+{txt}          6 {c |}{res}          1        0.11        0.74
+{txt}          8 {c |}{res}          2        0.21        0.95
+{txt}         10 {c |}{res}         15        1.59        2.54
+{txt}         12 {c |}{res}          1        0.11        2.65
+{txt}         15 {c |}{res}         14        1.48        4.13
+{txt}         20 {c |}{res}         24        2.54        6.67
+{txt}         25 {c |}{res}          5        0.53        7.20
+{txt}         30 {c |}{res}         17        1.80        9.00
+{txt}         40 {c |}{res}          5        0.53        9.53
+{txt}         45 {c |}{res}          6        0.64       10.17
+{txt}         50 {c |}{res}          5        0.53       10.70
+{txt}         60 {c |}{res}         26        2.75       13.45
+{txt}         75 {c |}{res}          1        0.11       13.56
+{txt}         80 {c |}{res}          2        0.21       13.77
+{txt}         85 {c |}{res}          1        0.11       13.88
+{txt}         90 {c |}{res}          1        0.11       13.98
+{txt}         95 {c |}{res}          2        0.21       14.19
+{txt}        100 {c |}{res}          2        0.21       14.41
+{txt}        120 {c |}{res}         14        1.48       15.89
+{txt}        130 {c |}{res}          1        0.11       16.00
+{txt}        140 {c |}{res}          1        0.11       16.10
+{txt}        160 {c |}{res}          2        0.21       16.31
+{txt}        180 {c |}{res}          8        0.85       17.16
+{txt}        200 {c |}{res}          3        0.32       17.48
+{txt}        240 {c |}{res}          9        0.95       18.43
+{txt}        246 {c |}{res}          1        0.11       18.54
+{txt}        300 {c |}{res}          4        0.42       18.96
+{txt}        320 {c |}{res}          1        0.11       19.07
+{txt}        350 {c |}{res}          1        0.11       19.17
+{txt}        360 {c |}{res}          2        0.21       19.39
+{txt}        420 {c |}{res}          1        0.11       19.49
+{txt}        460 {c |}{res}          1        0.11       19.60
+{txt}        480 {c |}{res}          1        0.11       19.70
+{txt}        600 {c |}{res}          1        0.11       19.81
+{txt}        888 {c |}{res}        757       80.19      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        944      100.00
+
+{com}. tab E_liv_water_pond_dam_km
+
+{txt}E_liv_water {c |}
+_pond_dam_k {c |}
+          m {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+        .02 {c |}{res}          1        0.11        0.11
+{txt}        .05 {c |}{res}          3        0.32        0.42
+{txt}         .1 {c |}{res}          1        0.11        0.53
+{txt}         .2 {c |}{res}          2        0.21        0.74
+{txt}        .25 {c |}{res}         11        1.17        1.91
+{txt}         .3 {c |}{res}          5        0.53        2.44
+{txt}        .35 {c |}{res}          4        0.42        2.86
+{txt}        .45 {c |}{res}          6        0.64        3.50
+{txt}         .5 {c |}{res}         10        1.06        4.56
+{txt}         .6 {c |}{res}          2        0.21        4.77
+{txt}         .7 {c |}{res}          3        0.32        5.08
+{txt}        .75 {c |}{res}          2        0.21        5.30
+{txt}         .8 {c |}{res}          1        0.11        5.40
+{txt}          1 {c |}{res}         28        2.97        8.37
+{txt}       1.25 {c |}{res}          2        0.21        8.58
+{txt}        1.5 {c |}{res}         12        1.27        9.85
+{txt}       1.75 {c |}{res}          1        0.11        9.96
+{txt}          2 {c |}{res}         14        1.48       11.44
+{txt}       2.25 {c |}{res}          1        0.11       11.55
+{txt}        2.5 {c |}{res}          7        0.74       12.29
+{txt}          3 {c |}{res}         10        1.06       13.35
+{txt}        3.5 {c |}{res}          2        0.21       13.56
+{txt}          4 {c |}{res}          4        0.42       13.98
+{txt}          5 {c |}{res}         14        1.48       15.47
+{txt}          6 {c |}{res}          6        0.64       16.10
+{txt}          7 {c |}{res}          2        0.21       16.31
+{txt}          8 {c |}{res}          5        0.53       16.84
+{txt}          9 {c |}{res}          1        0.11       16.95
+{txt}         10 {c |}{res}          6        0.64       17.58
+{txt}         12 {c |}{res}          2        0.21       17.80
+{txt}         15 {c |}{res}          7        0.74       18.54
+{txt}         20 {c |}{res}          2        0.21       18.75
+{txt}         22 {c |}{res}          1        0.11       18.86
+{txt}         25 {c |}{res}          4        0.42       19.28
+{txt}         35 {c |}{res}          2        0.21       19.49
+{txt}         48 {c |}{res}          1        0.11       19.60
+{txt}         50 {c |}{res}          1        0.11       19.70
+{txt}         60 {c |}{res}          1        0.11       19.81
+{txt}        888 {c |}{res}        757       80.19      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        944      100.00
+
+{com}. gen aE_liv_water_pond_min = E_liv_water_pond_min if E_liv_water_pond_min > 1 & E_liv_water_pond_min <400
+{txt}(763 missing values generated)
+
+{com}. gen aE_liv_water_pond_km = E_liv_water_pond_km if E_liv_water_pond_km <40
+{err}E_liv_water_pond_km not found
+{txt}{search r(111), local:r(111);}
+
+{com}. gen aE_liv_water_pond_dam_km = E_liv_water_pond_dam_km if E_liv_water_pond_dam_km <40
+{txt}(760 missing values generated)
+
+{com}. tab E_liv_water_rain_water
+
+{txt}E_liv_water {c |}
+_rain_water {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}        684       72.46       72.46
+{txt}          1 {c |}{res}         21        2.22       74.68
+{txt}        888 {c |}{res}        239       25.32      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        944      100.00
+
+{com}. tab E_liv_water_rain_water_km
+
+{txt}E_liv_water {c |}
+_rain_water {c |}
+        _km {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}         19        2.01        2.01
+{txt}         .2 {c |}{res}          1        0.11        2.12
+{txt}         .5 {c |}{res}          1        0.11        2.22
+{txt}        888 {c |}{res}        923       97.78      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        944      100.00
+
+{com}. gen aE_liv_water_rain_water_km = E_liv_water_rain_water_km if E_liv_water_rain_water_km !=888
+{txt}(923 missing values generated)
+
+{com}. save "D:\DEE\Dissertation\Quantitative approaches\DATA\aworking_19_11_2024_Alice_Kuule_Data_trimmed.dta", replace
+{txt}file D:\DEE\Dissertation\Quantitative approaches\DATA\aworking_19_11_2024_Alice_Kuule_Data_trimmed.dta saved
+
+{com}. centile (E_drink_water_well_km), centile (25 75)
+
+{txt}{col 56}{hline 2} Binom. Interp. {hline 2}
+    Variable {c |}       Obs  Percentile    Centile        [95% Conf. Interval]
+{hline 13}{c +}{hline 61}
+E_drink~l_km {c |}{col 14}{res}       944{col 29}     25{col 39}        3{col 55}        2{col 67}        5{txt}
+             {c |}{res}{col 29}     75{col 39}      888{col 55}      888{col 67}      888{txt}
+
+{com}. centile (E_drink_water_well_km), centile (25 75), hist
+{err}invalid 'hist' 
+{txt}{search r(198), local:r(198);}
+
+{com}. hist, centile (E_drink_water_well_km), centile (25 75), hist
+{err}varlist required
+{txt}{search r(100), local:r(100);}
+
+{com}. save "D:\DEE\Dissertation\Quantitative approaches\DATA\aworking_19_11_2024_Alice_Kuule_Data_trimmed.dta", replace
+{txt}file D:\DEE\Dissertation\Quantitative approaches\DATA\aworking_19_11_2024_Alice_Kuule_Data_trimmed.dta saved
+
+{com}. tab aE_liv_water_piped
+
+{txt}aE_liv_wate {c |}
+    r_piped {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}        680       96.45       96.45
+{txt}          1 {c |}{res}         25        3.55      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        705      100.00
+
+{com}. tab E_drink_water_piped
+
+{txt}E_drink_wat {c |}
+   er_piped {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}        846       89.62       89.62
+{txt}          1 {c |}{res}         98       10.38      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        944      100.00
+
+{com}. tab E_drink_water_borehole
+
+{txt}E_drink_wat {c |}
+er_borehole {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}        384       40.68       40.68
+{txt}          1 {c |}{res}        560       59.32      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        944      100.00
+
+{com}. save "D:\DEE\Dissertation\Quantitative approaches\DATA\aworking_19_11_2024_Alice_Kuule_Data_trimmed.dta", replace
+{txt}file D:\DEE\Dissertation\Quantitative approaches\DATA\aworking_19_11_2024_Alice_Kuule_Data_trimmed.dta saved
+
+{com}. save "D:\DEE\Dissertation\Quantitative approaches\DATA\aworking_19_11_2024_Alice_Kuule_Data_trimmed.dta", replace
+{txt}file D:\DEE\Dissertation\Quantitative approaches\DATA\aworking_19_11_2024_Alice_Kuule_Data_trimmed.dta saved
+
+{com}. tab Country
+
+    {txt}Country {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          1 {c |}{res}        425       45.02       45.02
+{txt}          2 {c |}{res}        519       54.98      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        944      100.00
+
+{com}. save "D:\DEE\Dissertation\Quantitative approaches\DATA\aworking_19_11_2024_Alice_Kuule_Data_trimmed.dta", replace
+{txt}file D:\DEE\Dissertation\Quantitative approaches\DATA\aworking_19_11_2024_Alice_Kuule_Data_trimmed.dta saved
+
+{com}. exit, clear

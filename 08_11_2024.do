@@ -195,6 +195,7 @@ replace aaMale_intra_confs_multi = 3 if abG_m_intraconf_liv ==1
 replace aaMale_intra_confs_multi = 4 if abG_m_intraconf_land ==1
 tab aaMale_intra_confs_multi
 mlogit aaMale_intra_confs_multi b(2).aaStudysite i.B_HH_H_Bm_1_age aEducation b(3).aMarital_status aaTotalTLU aaB_HH_type B_famy_origin i.C_HH_dep_full_agri C_HH_land_crop_ws_acc C_HH_land_liv_ws_acc aaD_migr_liv D_Hmigr_HH G_m_famy_alc
+
 gen aaMale_famy_confs_multi = 1 if acG_m_famy_conf_land ==1
 replace aaMale_famy_confs_multi = 2 if acG_m_famy_conf_liv ==1
 replace aaMale_famy_confs_multi = 3 if acG_m_famy_conf_trust ==1
@@ -202,6 +203,7 @@ replace aaMale_famy_confs_multi = 4 if acG_m_famy_confbasic ==1
 tab aaMale_famy_confs_multi
 mlogit aaMale_famy_confs_multi b(2).aaStudysite i.B_HH_H_Bm_1_age aEducation b(3).aMarital_status aaTotalTLU aaB_HH_type B_famy_origin i.C_HH_dep_full_agri C_HH_land_crop_ws_acc C_HH_land_liv_ws_acc aaD_migr_liv D_Hmigr_HH G_m_famy_alc
 eststo mlfmyM
+
 gen aaFemale_famy_confs_mult = 1 if I_f_famy_conf_land ==1
 replace aaFemale_famy_confs_mult = 2 if I_f_famy_conf_liv ==1
 replace aaFemale_famy_confs_mult = 3 if I_f_famy_conf_trust ==1
@@ -209,6 +211,7 @@ replace aaFemale_famy_confs_mult = 4 if I_f_famy_confbasic ==1
 tab aaFemale_famy_confs_mult
 mlogit aaFemale_famy_confs_mult b(2).aaStudysite i.B_HH_H_Bm_1_age aEducation b(3).aMarital_status aaTotalTLU aaB_HH_type B_famy_origin i.C_HH_dep_full_agri C_HH_land_crop_ws_acc C_HH_land_liv_ws_acc aaD_migr_liv D_Hmigr_HH I_f_famy_alc b(2).F_income_head_control H_income_work
 mlogit aaFemale_famy_confs_mult b(2).aaStudysite i.B_HH_H_Bm_1_age aEducation b(3).aMarital_status aaTotalTLU aaB_HH_type B_famy_origin i.C_HH_dep_full_agri C_HH_land_crop_ws_acc C_HH_land_liv_ws_acc aaD_migr_liv D_Hmigr_HH I_f_famy_alc
+
 gen aaFemale_intra_confs_mult = 1 if afI_f_intraconf_grass ==1
 replace aaFemale_intra_confs_mult = 2 if afI_f_intraconf_water ==1
 replace aaFemale_intra_confs_mult = 3 if afI_f_intraconf_liv ==1
